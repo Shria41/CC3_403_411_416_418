@@ -3,7 +3,9 @@ CC Project- Problem Statement 3
 
 The code can be viewed in the main branch!
 
-Problem Statement:
+Problem Statement: Deployment of Web App Using AWS Cloud
+
+Description of Solution:
 
 1.View of the dashboard
 ![Screenshot (1045)](https://user-images.githubusercontent.com/78139587/233398896-2a2e5788-a0cd-4764-8c3b-6b09ba56f90b.png)
@@ -36,3 +38,24 @@ It can be seen above that the doctor being deleted is "Shruthi"
 
 7.View on the console
 ![Screenshot (1053)](https://user-images.githubusercontent.com/78139587/233399162-93095a98-c238-4d67-8d3d-80caf52509cc.png)
+
+
+
+Important commands used:
+
+1. To connect and login to sql, the command used is: mysql -h database-cc.crarwjcqa1fg.us-east-1.rds.amazonaws.com -u admin -p   
+2. To move file from local system to ec2 instance, the command used is: scp -i newkey.pem medibed.zip root@ip-172-31-94-47:~/
+3. To move file from ec2 instance to the local system, the command used is: scp -i newkey.pem ec2-user@ec2-44-210-130-126.compute-1.amazonaws.com:/var/www/html/doctor/* .
+4. The url to view the webpage is: http://18.207.196.99/master.php
+
+The below image is of the ec2 instance:
+
+![image](https://user-images.githubusercontent.com/78139587/233401211-5ed53027-8a3a-4266-8b9e-52dd2e705f10.png)
+
+
+The below image is of the RDS database:
+
+![image](https://user-images.githubusercontent.com/78139587/233401131-05ade6e2-49cd-472a-840a-a1a04f983f19.png)
+
+
+
