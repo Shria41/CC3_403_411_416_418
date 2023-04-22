@@ -6,6 +6,7 @@ The code can be viewed in the main branch!
 Problem Statement: Deployment of Web App Using AWS Cloud
 
 Description of Solution:
+We first created an AWS EC2 instance in a public subnet, and then created and then created RDS database in a private subnet hosted on the cloud. We then connected the EC2 instance to the RDS database. Security group ec2-rds-x is created and added to the EC2 instance. It has one outbound rule that references the rds-ec2-x security group as its destination. Security group rds-ec2-x is created and added to the RDS database. It has one inbound rule that references the ec2-rds-x security group as its source. The RDS database uses MySQL. The database name is hospital_db.
 
 1.View of the dashboard
 
