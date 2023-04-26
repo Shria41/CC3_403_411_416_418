@@ -66,7 +66,7 @@ The below image is of the ec2 instance:
 
 The below image is of the RDS database:
 
-![image](https://user-images.githubusercontent.com/78139587/233401131-05ade6e2-49cd-472a-840a-a1a04f983f19.png)
+![image](https://user-images.githubusercontent.com/78139587/233401131-05ade6e2-49cd-472a-840a-a1a04f983f19.png).
 
 
 
